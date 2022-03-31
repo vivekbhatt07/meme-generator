@@ -1,15 +1,15 @@
 import React from "react";
-
+import TrollFace from "../Assets/Troll-Face.png";
 export default function Navbar() {
   return (
-    <div>
-      <div className="right-nav">
-        <img src="/" />
-        <span>Meme Generator</span>
-      </div>
+    <nav className="nav-bar">
       <div className="left-nav">
-        <span>React Course - Project 3</span>
+        <img className="troll-img" src={TrollFace} />
+        <span className="nav-name">Meme Generator</span>
       </div>
-    </div>
+      <div className="right-nav">
+        <span className="right-nav-content">React Course - Project 3</span>
+      </div>
+    </nav>
   );
 }
