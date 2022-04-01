@@ -5,11 +5,14 @@ export default function Main() {
   return (
     <main className="meme-generator-box">
       <div className="input-box">
-        <input className="left-input"></input>
-        <input className="right-input"></input>
+        <input placeholder="TOP" className="left-input"></input>
+        <input placeholder="BOTTOM" className="right-input"></input>
       </div>
       <button className="btn-new-img">Get a new meme image 🎞</button>
-      <img className="meme-img" src={Meme} alt="change" />
+      <div className="text">
+        <div className="top-text text-style">shut up</div>
+        <div className="bottom-text text-style">and take my money</div>
+      </div>
     </main>
   );
 }

@@ -58,7 +58,6 @@ body {
 
 .meme-generator-box {
   margin: 50px 200px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,8 +94,37 @@ body {
   background-image: linear-gradient(#7e22ce, #9333ea);
 }
 
-.meme-img {
+/* .meme-img {
   width: 48%;
   height: 48%;
   margin-top: 20px;
+  object-fit: contain;
+} */
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(./Assets/Meme.svg);
+  background-repeat: no-repeat;
+  width: 47.75%;
+  height: 270px;
+  margin-top: 10px;
+}
+
+.top-text {
+  margin-top: 15px;
+}
+
+.bottom-text {
+  margin-bottom: 15px;
+}
+
+.text-style {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Impact", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
 }
